@@ -7,8 +7,8 @@ Back-end que se utiliza de API REST para se comunicar com o back-end diponivel: 
 ## Índice
 1. [Funcionalidades do Projeto](#funcionalidades)
 <!--2. [Como rodar o projeto?](#executar)-->
-3. [Tecnologias utilizadas](#tecnologias)
-4. [Benefícios](#beneficios)
+2. [Tecnologias utilizadas](#tecnologias)
+3. [Benefícios](#beneficios)
 
 <div id='funcionalidades'/>
 
@@ -20,9 +20,9 @@ Back-end que se utiliza de API REST para se comunicar com o back-end diponivel: 
 - [ ] Informa disponibilidade de assentos
 - [ ] Fazer reserva 
 - [ ] Confirmar reserva
-
-<div id='executar'/>  
 <!--
+<div id='executar'/>  
+
 ## Como rodar o projeto?
 
 1. clone o repositório e instale a linguagem Go em seu computador (https://go.dev/doc/install)
