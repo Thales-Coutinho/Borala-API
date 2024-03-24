@@ -19,8 +19,18 @@ public class trip {
     private String day;
     private String driverCPF;
     private String hour;
-    private String DepatureCity;
-    private String DestinationCity;
-    private String Local;
+    private String departure_city;
+    private String destination_city;
+    private String local;
     private Float price;
+
+    public trip(DataRegisterTrip data) {
+        this.day = data.day();
+        this.driverCPF = data.driverCPF();
+        this.hour = data.hour();
+        this.departure_city = data.departure_city();
+        this.destination_city = data.destination_city();
+        this.local = data.local();
+        this.price = data.price();
+    }
 }
