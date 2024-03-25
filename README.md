@@ -37,7 +37,8 @@ Back-end que se utiliza de API REST para se comunicar com o back-end diponivel: 
 1. [Java](https://www.java.com)
 2. [Spring Boot](https://spring.io/projects/spring-boot)
 3. [Maven](https://maven.apache.org/)
-4. [Flyway](https://flywaydb.org/)
+4. [Bean Validation](https://beanvalidation.org/)
+5. [Flyway](https://flywaydb.org/)
 
 <div id='beneficios'/>  
 
