@@ -8,7 +8,7 @@ public record DataRegisterTrip(
         @NotBlank
         String day,
         @NotBlank @Pattern(regexp = "\\d{11}")
-        String driverCPF,
+        String driver_cpf,
         @NotBlank
         String hour,
         @NotBlank
