@@ -17,6 +17,7 @@ public class TripsController {
 
     @Autowired
     private TripRepository repository;
+
     @PostMapping
     @Transactional
     public void addTrip(@RequestBody @Valid DataRegisterTrip data){
@@ -26,6 +27,5 @@ public class TripsController {
     @GetMapping
     public List<DataGetTrip> listTrips(){
         return repository.findAll().stream().map(DataGetTrip::new).toList();
-
     }
 }
